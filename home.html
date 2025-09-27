@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/flexboxgrid.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <title>home</title>
+</head>
+<body>
+
+ <div class="header">
+        <nav>
+             <div class="nav_right">
+                <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-house"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+             </div>   
+             <div class="nav_left">
+                <div class="regester_login_btn">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="login.html">ورود / ثبت نام</a>
+                </div>
+                <div class="panel" onclick="navigateTo('panel')">پنل مدیریت</div>
+             </div>  
+        </nav>
+        <section class="slider">
+            <div class="slides">
+                <div class="item active" id="slide1">
+                       <img src="/image/s1.jpg" alt="">
+                    <span style="color:white;">زیبایی در جزئیات شکل میگیرد</span>
+                </div>
+                <div class="item " id="slide2">
+                    <img src="/image/s2.jpg" alt="">
+                    <span style="color: black;">انواع کفشورهای استیل</span>
+                </div>
+                <div class="item " id="slide3">
+                       <img src="/image/s3.jpg" alt="">
+                    <span>کفشورهای رنگی</span>
+                </div>
+            </div>
+            <div class="buttons">
+                <i onclick="setSlide('slide1' , 1)" class="fa-solid fa-circle"></i>
+                <i onclick="setSlide('slide2' , 2)" class="fa-solid fa-circle"></i>
+                <i onclick="setSlide('slide3' , 3)" class="fa-solid fa-circle"></i>
+              
+            </div>
+        </section>
+ </div>
+
+ <section class="product-sec-new">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="shoping-card">
+                <div class="img-sec">
+                    <img src="/image/p1.jpg" alt="">
+                    <span class="hot-offer">پیشنهاد ویژه</span>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="title">
+                   کفشور استیل ۱۱×۱۱ کد ۱۰۲
+                </div>
+                <div class="buttons">
+                    <div class="right">
+                        <span class="price">قیمت 800 هزار</span>
+                    </div>
+                    <div class="left">
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="shoping-card">
+                <div class="img-sec">
+                    <img src="/image/p2.jpg" alt="">
+                        <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="title">
+                    کفشور استیل ۱۱×۱۱ کد ۲۰۰۴
+                </div>
+                <div class="buttons">
+                    <div class="right">
+                        <span class="price">قیمت 800 هزار</span>
+                    </div>
+                    <div class="left">
+                         <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                         <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="shoping-card">
+                <div class="img-sec">
+                    <img src="/image/p3.jpg" alt="">
+                    <span class="hot-offer">پیشنهاد ویژه</span>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="title">
+                   ملات ترمیم بتن
+                </div>
+                <div class="buttons">
+                    <div class="right">
+                        <span class="price">قیمت 800 هزار</span>
+                    </div>
+                    <div class="left">
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">خرید</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="shoping-card">
+                <div class="img-sec">
+                    <img src="/image/p4.jpg" alt="">
+                        <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="title">
+                  سخت کننده سطح بتن
+                </div>
+                <div class="buttons">
+                    <div class="right">
+                        <span class="price">قیمت 800 هزار</span>
+                    </div>
+                    <div class="left">
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">خرید</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <section class="supper-offer-section">
+    <div class="row">
+        <div class="col-lg-9">
+            <div class="supper-offer-box">
+                <span class="supper-offer-box-title">
+                    پیشنهاد شگفت انگیز
+                </span>
+                <div class="body">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="image-container">
+                                <img src="/image/super-product.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="spesification">
+                                <div class="price-row">
+                                    <div class="price">565 هزار تومان</div>
+                                    <div class="off">تخفیف 60%</div>
+                                </div>
+                                <div class="title">نوار کنج استیل کد 600</div>
+                                <div class="counter-down">
+                                    <span id="seconds" class="seconds">40</span> :
+                                    <span id="minutes" class="minutes">26</span> :
+                                    <span id="hours" class="hours">19</span>
+                                </div>
+                                <div class="remaining-time">زمان باقی مانده تا پایان تخفیف</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="banner">
+                <img src="/image/friday.jpg" alt="">
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <section class="dragble-list">
+    <div class="title">
+        <span>هندزفری ها</span>
+    </div>
+    <div id="owl-product" class="owl-carousel owl-theme">
+        <div class="item">
+                        <div class="shoping-card">
+                <div class="img-sec">
+                    <img src="/image/h1.jpg" alt="">
+                    <span class="hot-offer">پیشنهاد ویژه</span>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="title">
+                  نوار کنج استیل کد 600
+                </div>
+                <div class="buttons">
+                    <div class="right">
+                        <span class="price">قیمت 800 هزار</span>
+                    </div>
+                    <div class="left">
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+                        <div class="shoping-card">
+                <div class="img-sec">
+                    <img src="/image/h2.jpg" alt="">
+                    <span class="hot-offer">پیشنهاد ویژه</span>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="title">
+                  نوارکنج استیل کد 601
+                </div>
+                <div class="buttons">
+                    <div class="right">
+                        <span class="price">قیمت 800 هزار</span>
+                    </div>
+                    <div class="left">
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+                        <div class="shoping-card">
+                <div class="img-sec">
+                    <img src="/image/h3.jpg" alt="">
+                    <span class="hot-offer">پیشنهاد ویژه</span>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="title">
+                   فیتیله یو استیل کد 500
+                </div>
+                <div class="buttons">
+                    <div class="right">
+                        <span class="price">قیمت 800 هزار</span>
+                    </div>
+                    <div class="left">
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+                        <div class="shoping-card">
+                <div class="img-sec">
+                    <img src="/image/h4.jpg" alt="">
+                    <span class="hot-offer">پیشنهاد ویژه</span>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="title">
+                   نبشی روکار استیل کد 700
+                </div>
+                <div class="buttons">
+                    <div class="right">
+                        <span class="price">قیمت 800 هزار</span>
+                    </div>
+                    <div class="left">
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+                        <div class="shoping-card">
+                <div class="img-sec">
+                    <img src="/image/h5.jpg" alt="">
+                    <span class="hot-offer">پیشنهاد ویژه</span>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="title">
+                  تسمه استیل کد 800 توپراک
+                </div>
+                <div class="buttons">
+                    <div class="right">
+                        <span class="price">قیمت 800 هزار</span>
+                    </div>
+                    <div class="left">
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+                        <div class="shoping-card">
+                <div class="img-sec">
+                    <img src="/image/h6.jpg" alt="">
+                    <span class="hot-offer">پیشنهاد ویژه</span>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="title">
+                  مقطع استیل کد 1001 
+                </div>
+                <div class="buttons">
+                    <div class="right">
+                        <span class="price">قیمت 800 هزار</span>
+                    </div>
+                    <div class="left">
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+                        <div class="shoping-card">
+                <div class="img-sec">
+                    <img src="/image/h7.jpg" alt="">
+                    <span class="hot-offer">پیشنهاد ویژه</span>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="title">
+                  نوار کنج سرامیک آلومینیوم کد100
+                </div>
+                <div class="buttons">
+                    <div class="right">
+                        <span class="price">قیمت 800 هزار</span>
+                    </div>
+                    <div class="left">
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                            <a class="b-text" href="#">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+ </section>
+
+ <footer>
+       <div class="row">
+          <div class="col-lg-8">
+           <div class="right">
+            <div class="title">در باره ما</div>
+            <div class="des">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. At officiis nulla, harum, dolorum ullam molestiae architecto, laudantium nobis similique distinctio sapiente minus beatae saepe voluptates quaerat. Culpa doloribus aut perferendis.
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-4">
+             <div class="left">
+                <div class="title">ما را در شبکه های اجتماعی دنبال کنید</div>
+                <div class="socials">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+         </div>
+        </div>
+    <div class="buttom">2025 © کلیه حقوق محفوظ میاشد</div>
+ </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+
+</body>
+</html>
